@@ -1,6 +1,6 @@
 package fr.nnyimc.metier;
 
-public class ReportageCulturel extends Reportage {
+public class ReportageCulturel extends Reportage implements IReportageCulturel {
     private final String theme = "Culturel";
 
     public ReportageCulturel() {

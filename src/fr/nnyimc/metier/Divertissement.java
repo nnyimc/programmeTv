@@ -1,6 +1,6 @@
 package fr.nnyimc.metier;
 
-public class Divertissement extends Emission {
+public class Divertissement extends Emission implements IDivertissement {
     private String animateur;
     private final int duree = 2;
 

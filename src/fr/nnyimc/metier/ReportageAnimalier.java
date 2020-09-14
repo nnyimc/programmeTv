@@ -1,6 +1,6 @@
 package fr.nnyimc.metier;
 
-public class ReportageAnimalier extends Reportage {
+public class ReportageAnimalier extends Reportage implements IReportageAnimalier {
     private final String theme = "Animalier";
 
     public ReportageAnimalier() {

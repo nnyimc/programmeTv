@@ -3,7 +3,7 @@ package fr.nnyimc.metier;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class GrilleProgramme {
+public class GrilleProgramme implements IGrilleProgramme {
     private ArrayList<Emission> grille = new ArrayList<>(Collections.nCopies(24, null));;
     private int debDivert = 18;
     private int debFictionPremiereDiffusion = 21;

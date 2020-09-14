@@ -1,6 +1,6 @@
 package fr.nnyimc.metier;
 
-public class Fiction extends Emission{
+public class Fiction extends Emission implements IFiction{
     private int anneeRealisation;
     private String realisateur;
     private boolean rediffusion;
